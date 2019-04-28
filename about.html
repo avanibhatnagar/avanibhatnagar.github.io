@@ -6,6 +6,7 @@
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>It's Avani</title>
       <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
       <!-- jQuery -->
     <script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -39,9 +40,20 @@
                         </ul>
                   </div>
             </nav>
+      </div><br><br>
+      <div class="card">
+      <img src="imgs\profile.jpg" alt="John" style="width:100%">
+      <h1>Avani Bhatnagar</h1>
+      <p class="title">Software Engineer</p>
+      <p>San Jose State University</p>
+      <a href="https://github.com/avanibhatnagar"><i class="fa fa-github"></i></a>
+      <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+      <a href="https://www.linkedin.com/in/avani07/"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/avani.bhatnagar.7965"><i class="fa fa-facebook"></i></a>
+      <p><button>Contact</button></p>
       </div>
 
-      <h1>Skills Bar</h1>
+  <h1>Skills</h1>
 
   <div class="skillbar clearfix " data-percent="95%">
   	<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
@@ -84,14 +96,50 @@
   	<div class="skillbar-bar" style="background: #4288d0;"></div>
   	<div class="skill-bar-percent">70%</div>
   </div> <!-- End Skill Bar -->
-<script>
-jQuery(document).ready(function(){
-	jQuery('.skillbar').each(function(){
-		jQuery(this).find('.skillbar-bar').animate({
-			width:jQuery(this).attr('data-percent')
-		},6000);
-	});
-});
-</script>
+  <script>
+  jQuery(document).ready(function(){
+  	jQuery('.skillbar').each(function(){
+  		jQuery(this).find('.skillbar-bar').animate({
+  			width:jQuery(this).attr('data-percent')
+  		},6000);
+  	});
+  });
+  </script>
+  <style>
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  </style>
 </body>
 </html>

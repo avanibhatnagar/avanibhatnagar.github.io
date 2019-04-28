@@ -41,7 +41,7 @@
                   </div>
             </nav>
       </div><br><br>
-      <div class="card">
+      <div class="card first-column">
       <img src="imgs\profile.jpg" alt="John" style="width:100%">
       <h1>Avani Bhatnagar</h1>
       <p class="title">Software Engineer</p>
@@ -52,24 +52,28 @@
       <a href="https://www.facebook.com/avani.bhatnagar.7965"><i class="fa fa-facebook"></i></a>
       <p><button>Contact</button></p>
       </div>
-
+      <!-- <div class="second-column"> -->
+        <!-- <p>I am looking for full time opportunities </p> -->
+      <!-- </div> -->
+<!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+<div class="second-column">
   <h1>Skills</h1>
 
   <div class="skillbar clearfix " data-percent="95%">
-  	<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
-  	<div class="skillbar-bar" style="background: #e67e22;"></div>
+  	<div class="skillbar-title" style="background: gray;"><span>HTML5</span></div>
+  	<div class="skillbar-bar" style="background: gray;"></div>
   	<div class="skill-bar-percent">95%</div>
   </div> <!-- End Skill Bar -->
 
   <div class="skillbar clearfix " data-percent="90%">
-  	<div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
-  	<div class="skillbar-bar" style="background: #3498db;"></div>
+  	<div class="skillbar-title" style="background: black;"><span>CSS3</span></div>
+  	<div class="skillbar-bar" style="background: black;"></div>
   	<div class="skill-bar-percent">90%</div>
   </div> <!-- End Skill Bar -->
 
   <div class="skillbar clearfix " data-percent="85%">
-  	<div class="skillbar-title" style="background: #2c3e50;"><span>Java</span></div>
-  	<div class="skillbar-bar" style="background: #2c3e50;"></div>
+  	<div class="skillbar-title" style="background: #581845;"><span>Java</span></div>
+  	<div class="skillbar-bar" style="background: #581845;"></div>
   	<div class="skill-bar-percent">85%</div>
   </div> <!-- End Skill Bar -->
 
@@ -86,8 +90,8 @@
   </div> <!-- End Skill Bar -->
 
   <div class="skillbar clearfix " data-percent="100%">
-  	<div class="skillbar-title" style="background: #27ae60;"><span>MySQL</span></div>
-  	<div class="skillbar-bar" style="background: #2ecc71;"></div>
+  	<div class="skillbar-title" style="background: #34495E;"><span>MySQL</span></div>
+  	<div class="skillbar-bar" style="background: #34495E;"></div>
   	<div class="skill-bar-percent">100%</div>
   </div> <!-- End Skill Bar -->
 
@@ -95,7 +99,7 @@
   	<div class="skillbar-title" style="background: #124e8c;"><span>Jenkins,AWS</span></div>
   	<div class="skillbar-bar" style="background: #4288d0;"></div>
   	<div class="skill-bar-percent">70%</div>
-  </div> <!-- End Skill Bar -->
+  </div> <!-- End Skill Bar --></div>
   <script>
   jQuery(document).ready(function(){
   	jQuery('.skillbar').each(function(){
@@ -140,6 +144,34 @@
   button:hover, a:hover {
     opacity: 0.7;
   }
+
+  .first-column {
+    width: 50%;
+    padding: 0 10px 0 0;
+    float: left;
+}
+
+.second-column {
+    width: 50%;
+    padding: 0 10px 0 0;
+    float: right;
+}
+
+@media only screen and (max-width: 800px) {
+
+   .first-column {
+        width: 100%;
+        padding-bottom: 10px;
+        float: none;
+    }
+
+    .second-column {
+        width: 100%;
+        padding-bottom: 10px;
+        float: none;
+    }
+
+}
   </style>
 </body>
 </html>
